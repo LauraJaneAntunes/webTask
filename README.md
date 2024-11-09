@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Sistema de Gestão de Tarefas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um Sistema de Gestão de Tarefas, desenvolvido como parte do curso React Para Completos Iniciantes do canal do Youtube **Dicas Para Devs** de Felipe Mota Rocha.
+O objetivo do sistema é facilitar a organização e o acompanhamento de tarefas, permitindo o cadastro, consulta, edição, e remoção de atividades.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Cadastro de Tarefas**: Adicione novas tarefas à lista.
+- **Consulta de Detalhes da Tarefa**: Visualize informações detalhadas de cada tarefa.
+- **Edição da Tarefa**: Edite os detalhes das tarefas existentes.
+- **Remoção da Tarefa**: Remova tarefas da lista.
+- **Marcar Tarefa como Feita**: Ao clicar em uma tarefa, é possível marcá-la como concluída, destacando-a visualmente.
 
-### `npm start`
+## Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **ReactJS**: Biblioteca JavaScript para construir interfaces de usuário.
+- **Create-React-App**: Ferramenta que facilita a criação de novos aplicativos React. Ela configura automaticamente um ambiente de desenvolvimento o desenvolvimento sem precisar configurar tudo manualmente.
+- **React-icons**: Icones da Biblioteca para React.
+- **Uuid**: Biblioteca para criação de identificadores únicos universais.
+- **Web-vitals**: Ferramenta para medir métricas de desempenho de experiência do usuário.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Executar
 
-### `npm test`
+1. **Clonar o Repositório**:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   git clone (https://github.com/LauraJaneAntunes/webTask)
 
-### `npm run build`
+2. **Instalar dependências**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Configurar variavéis de ambiente:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   renomeie o arquivo: envdeexemplo para .env
 
-### `npm run eject`
+4. **Executar o projeto**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Acessar a Aplicação**:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   http://localhost:3000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Laura Jane Antunes ###
